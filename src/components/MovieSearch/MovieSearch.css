@@ -1,0 +1,34 @@
+.MovieSearch-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.MovieSearch-container input {
+  flex: 1;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+.MovieSearch-container button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.MovieSearch-container button.search {
+  color: white;
+  background-color: gold;
+}
+
+.MovieSearch-container button.clear {
+  color: white;
+  background-color: darkred;
+}
+
+.MovieSearch-container button:disabled {
+  background-color: #ccc;
+  color: #444;
+  cursor: unset;
+}

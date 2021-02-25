@@ -1,0 +1,18 @@
+.Rating-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Rating-container span:after {
+  font-size: 30px;
+  color: gold;
+  content: "\2729";
+}
+
+.Rating-container span:not(.disabled):hover {
+  cursor: pointer;
+}
+
+.Rating-container span.filled:after {
+  content: "\2605";
+}

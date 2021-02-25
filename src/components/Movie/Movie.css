@@ -1,0 +1,26 @@
+.Movie-container {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 150px 1fr;
+  column-gap: 20px;
+  border: solid 1px #ccc;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.Movie-container:hover {
+  cursor: pointer;
+}
+
+.Movie-container .Movie-image {
+  width: 150px;
+}
+
+.Movie-container .Movie-description::after {
+  content: "...";
+}
+
+.Movie-container .rating .Rating-container {
+  justify-content: flex-start;
+}

@@ -1,0 +1,47 @@
+.MovieDetail-container .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MovieDetail-container .heading .back-button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: gold;
+  cursor: pointer;
+  color: white;
+}
+
+.MovieDetail-container .heading .title {
+  margin: 0;
+}
+
+.MovieDetail-container .tagline {
+  margin-top: 5px;
+  color: #444;
+}
+
+.MovieDetail-container .cover {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  object-fit: contain;
+}
+
+.MovieDetail-info .Rating-container {
+  justify-content: flex-start;
+}
+
+.MovieDetail-info .release-date span {
+  font-weight: bold;
+}
+
+.MovieDetail-info .genres {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.MovieDetail-info .genres span:not(:last-child):after {
+  content: "-";
+}
